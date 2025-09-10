@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .hero-section {
+  background: #222 url('../images/Oil-Transportation-Logistics-SIPMM.jpg') center/cover no-repeat;
+  min-height: 50vh;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  opacity: 3;
+}
+  .contact-section .flex-fill form:hover {
+
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+      transition: all 0.3s ease-in-out;
+    }
+    .fade-in { opacity: 0;
+         transition: opacity 1s ease-in-out; 
+        }
+    .fade-in.visible { opacity: 1;
+     }
+
+.contact-form-wrapper {
+  max-width: 500px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .contact-form-wrapper {
+    max-width: 95%;
+    margin: 0 auto; 
+  }
+  #contact-form {
+    margin-left: 70px;
+  }
+}
